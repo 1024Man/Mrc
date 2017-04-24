@@ -1,0 +1,44 @@
+{
+  "name": "Mrc",
+  "version": "4.0.0",
+  "description": "单页面应用核心",
+  "main": "mrc.min.js",
+  "directories": {
+    "example": "example",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "babel-node node_modules/.bin/jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.superboss.cc:quicloud-front-end/quicloud-express-croe.git"
+  },
+  "keywords": [
+    "spa",
+    "webapp"
+  ],
+  "author": "crow",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.1.0",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "babel-core": "^6.21.0",
+    "babel-loader": "^6.2.10",
+    "babel-preset-env": "^1.1.4",
+    "jasmine": "^2.5.3",
+    "jasmine-core": "^2.5.2",
+    "json-loader": "^0.5.4",
+    "karma": "^1.4.0",
+    "karma-babel-preprocessor": "^6.0.1",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-coverage": "^1.1.1",
+    "karma-intellij": "^1.0.0",
+    "karma-jasmine": "^1.1.0",
+    "karma-webpack": "^2.0.1",
+    "moment": "^2.17.1",
+    "webpack": "^1.14.0"
+  }
+}
